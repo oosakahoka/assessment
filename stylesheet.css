@@ -1,0 +1,55 @@
+h1 {
+    text-align:center;
+}
+
+.container {
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+}
+
+.content-top {
+    max-width:1000px;
+    margin:auto;
+}
+
+.text-content {
+    margin: 5px 10px;
+    padding: 10px 20px;
+}
+
+.quiz-button {
+    margin: 16px;
+    padding:8px 16px;
+    color:black;
+    background-color:white;
+    text-align:center;
+    cursor:pointer;
+    border-radius:8px
+    
+}
+ 
+.quiz-button:active{
+    padding-top:6px;
+    padding-bottom:4px;
+    border:1px solid black;
+    background-color:blue;
+}
+
+.radio-inline__input {
+    display: none;
+}
+
+.radio-inline__label {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 16px;
+    outline-style: auto;
+}
+
+.radio-inline__input:checked  + .radio-inline__label {
+    background: red;
+    color: white;
+}
+
